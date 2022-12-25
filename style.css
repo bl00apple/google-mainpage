@@ -1,0 +1,150 @@
+body{
+  display: contents;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #202124;
+}
+
+.navbar{
+  float: right;
+}
+
+.navbar-item{
+  padding-top:10px;
+  padding-left: 15px;
+  padding-right: 10px;
+  color: rgba(0,0,0,.87);
+}
+
+a.navbar-item{
+  text-decoration: none;
+}
+
+a.navbar-item:hover{
+  text-decoration: underline;
+}
+
+.main{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.input-area {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbar{
+  border: 1px;
+  color: rgba(0,0,0,.87);
+}
+
+.input-box{
+  width: 560px;
+  height: 39px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding-left: 50px;
+  padding-right: 70px;
+}
+
+.input-box:hover{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.search-icon {
+  position: relative;
+  left: 40px;
+  color: #9aa0a6;
+}
+
+.mic-icon {
+  position: relative;
+  right: 60px;
+  color: rgb(66, 133, 244);;
+}
+
+.camera-icon {
+  position: relative;
+  right: 50px;
+  color: rgb(66, 133, 244);;
+}
+
+.button-area{
+  padding-top: 18px;
+}
+
+.button-item{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.button-item:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.language-area{
+  margin-top: 20px;
+}
+
+.language-area a{
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.language-area a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background: #f2f2f2;
+  width: 100%;
+}
+
+.first-row{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+}
+
+.first-row a{
+  text-decoration: none;
+  color: #70757a;
+}
+
+.second-row{
+  padding:20px;
+}
+
+.second-row a{
+  color: #70757a;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.second-row a:hover{
+  text-decoration: underline;
+}
+
+.second-row-right{
+  float: right;
+}
